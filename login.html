@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="login.css">
+    <link rel="icon" href="./logoo.png">
+    <title>Login Form</title>
+</head>
+<body>
+    <div class="hero">
+    
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+                <button type="button" class="toggle-btn" onclick="register()">Register</button>
+            </div>
+            <div class="socail-icons">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+            </div>
+            <form  id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="User ID" required>
+                <input type="password" class="input-field" placeholder="Password" required>
+                <input type="checkbox"  class="check-box"> <span>Remember Password</span>
+            <button type="Submit" class="submit-btn">Log in</button>  
+            </form>
+            <form  id="register" class="input-group">
+                <input type="text" class="input-field" placeholder="User ID" required>
+                <input type="email" class="input-field" placeholder="Email ID" required>
+                <input type="password" class="input-field" placeholder="Password" required>
+                <input type="checkbox"  class="check-box"> <span>I agree to  the terms and conditions</span>
+            <button type="Submit" class="submit-btn">Register</button>  
+            </form>
+        </div>
+
+    </div>
+</body>
+<script src="app.js"></script>
+</html>

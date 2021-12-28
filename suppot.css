@@ -1,0 +1,120 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+/***********HEADER PART STARTS*************/
+
+.header-section{
+    margin-top: 50px;
+    width: 100%;
+    height: 350px;
+    background: linear-gradient(	#008B8B, 	#008080);
+    position: relative;
+    background: #E62E2D;
+
+}
+
+.search{
+    border-radius:  0 100px 100px 0 !important;
+    min-width: 150px;
+    min-height: 45px;
+}
+.input-group-text{
+    color: 	#008B8B !important;
+    background: white;
+    border-radius: 100px 0 0 100px;
+    min-width: 10px;
+    min-height: 45px;
+    
+}
+
+/***********HEADER PART ENDS*************/
+
+
+/******** Questions part Starts**********/
+
+.questions{
+    width: 100%;
+    height: auto;
+    margin: 100px 0;
+}
+.questions h1{
+    font-weight: 400 !important;
+}
+.ques{
+    box-shadow:   inset 0 0 4px #777777;
+    cursor: pointer;
+     
+}
+.queries:hover{
+    box-shadow:  0 0 10px #777777;
+}
+/******** Questions part ENDS**********/
+
+
+/******** HELP part starts**********/
+
+
+
+.help{
+    width: 100%;
+    height: auto;
+    margin: 100px 0;
+}
+.help h1{
+    font-weight: 400 !important;
+}
+
+.card{
+    width: 20rem;
+    text-align: center;
+    cursor: pointer;
+}
+.card:hover{
+    box-shadow:  0 0 10px #777777;
+}
+/******** HELP part ENDS**********/
+
+
+/* ********footer STARTS******** */
+.footer{
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+    
+}
+.links li{
+    list-style: none;
+    display: inline;
+    padding-left: 15px;
+}
+.links a{
+    color: #fff;
+    font-weight: 450;
+}
+.links a:hover{
+    color:	#C0C0C0;
+    text-decoration: none;
+}
+
+/* ********footer ENDS******** */
+
+
+
+
+
+/* ************Media query Starts********** */
+@media screen and (max-width: 736px){
+    .header-section h1{
+        font-size: 25px !important;
+    }
+}
+@media screen and (max-width: 812px){
+    .questions h1{
+        font-size: 25px;
+    }
+}
+
+
+/* ************Media query ends********** */

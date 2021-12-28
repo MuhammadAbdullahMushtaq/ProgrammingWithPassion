@@ -1,0 +1,158 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+a{text-decoration: none;}
+a:hover{text-decoration: none;}
+p{
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+
+/***********HEADER PART STARTS*************/
+
+.header-section{
+    width: 100%;
+    height: 550px;
+    background-image: url("images/ab.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    position: relative;
+
+}
+.center-div{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+}
+/***********HEADER PART ENDS*************/
+
+
+
+
+/******* experts  PART  starts ********/
+.teachers{
+    width: auto;
+    height: auto;
+    margin: 100px 0;
+}
+.teacherspic{
+    width: 100%;
+    height: 140px;
+   
+    
+}
+.reviews i{
+    margin-top: 4px;
+    padding: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.heading p{
+    font-size: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+     'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.para{
+    font-size: 20px !important;
+}
+/******* experts  PART  Ends ********/
+
+
+
+
+
+
+/*******  globalreach  PART   Starts********/
+
+.globalreach{
+    width: auto;
+    height: auto;
+    margin: 100px 0;
+}
+
+/*******  globalreach  PART   ends********/
+
+
+/******* follow us  PART  starts **********/
+.followus{
+    width: 100%;
+    height: auto;
+    margin: 100px 0 0 0 ;
+
+}
+
+.icon{
+    padding-left: 15px;
+    cursor: pointer;
+}
+/****** follow us  PART  Ends **********/
+
+
+
+
+/* ************Media query starts********** */
+@media screen and (max-width: 600px){
+    .center-div{
+        position: absolute;
+        top: 55%;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1366px){
+    .reviews i{
+        margin-top: 4px;
+        padding: 2px;
+        font-size: 6px;
+        cursor: pointer;
+    }
+}
+@media screen and (max-width: 736px){
+    .record{
+        height: auto;
+        display: block !important;
+    }
+    .center-div h1{
+        font-size: 50px !important;
+    }
+    .links{
+        font-size: 15px !important;
+    }
+}
+/* ************Media query ends********** */
+.back-to-top {
+    position: relative;
+    z-index: 2;
+    transition: all ease linear 3s;
+}
+    
+.back-to-top .btn-dark {
+width: 35px;
+height: 35px;
+border-radius: 50%;
+padding: 0;
+position: fixed;
+bottom: 20px;
+right: 20px;
+background: #2e2e2e;
+border-color: #2e2e2e;
+display: none;
+z-index: 999;
+-webkit-transition: all 3s linear ease;
+-o-transition: all 3s linear ease;
+transition: all 3s linear ease;
+}
+
+.back-to-top .btn-dark:hover {
+cursor: pointer;
+background: #FA6742;
+border-color: #FA6742;
+}

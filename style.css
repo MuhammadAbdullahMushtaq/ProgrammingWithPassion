@@ -116,15 +116,18 @@ p{
     
 }
 @media screen and (max-width: 470px){
-  .row{
+.row{
     justify-content: center;
     align-items: center;
     display: flex !important;
     flex-direction: column !important;
-  }
-  .row .student-pic .studentpic{
+}
+.modal-body .row section{
+    width: 100% !important;
+}
+.row .student-pic .studentpic{
     width: 100px;
-  }
+}
 }
 /*********Testimonials ENDS**********/
 
